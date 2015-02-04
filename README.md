@@ -57,7 +57,7 @@ data attributes:
 | data-options | Optional | A string of options to customize the tooltip. See [Advanced Usage](#advanced-usage) below for more details. |
 
 
-#### Examples - *[See these examples in action](http://ebtest2.ebrueggeman.com/skinnytip/sample.html)*
+#### Examples - *[See these examples in action](http://www.ebrueggeman.com/skinnytip/sample.html)*
 
 ```html
 <span class="skinnytip" data-text="This is the contents of the tooltip">
@@ -98,7 +98,7 @@ You can add the `data-options` data attribute and specify comma-separared option
 | xOffset | 15 | Number of pixels the tooltip is horizontally right of the cursor. You do not need to specify the 'px' unit when specifying. |
 | yOffset | 15 | Number of pixels the tooltip is vertically below of the cursor. You do not need to specify the 'px' unit when specifying. |
 
-#### Advanced Usage Examples - *[See these examples in action](http://ebtest2.ebrueggeman.com/skinnytip/sample.html)*
+#### Advanced Usage Examples - *[See these examples in action](http://www.ebrueggeman.com/skinnytip/sample.html)*
 
 ```html
 <span class="skinnytip" data-text="This is the contents of the tooltip" 
