@@ -82,24 +82,26 @@ You can add the `data-options` data attribute and specify comma-separared option
 
 | Option | Default Value | Description |
 | ---- |----| ----|
-| width | '300px' | The width of the tooltip box in pixels.  Note that the value is in the css style of formatting. You must include px or other unit when specifying this option. |
-| border | '2px' | The border size in pixels. Note that the value is in the css style of formatting. You must include px or other unit when specifying this option. A 0 value means no border. |
-| borderColor | '#FC6' | The border color, which is also the background color of the title text, if a title is included. #FFCC66 = orange yellow. |
-| backColor | '#FFC' | The background color of the tooltip box. #FFFFCC = light yellow. |
-| textColor | '#000' | The color of the tooltip text. #000 is black. |
-| titleTextColor | '#000' | The color of the tooltip title text. #000 is black. |
-| fontFace | 'Arial, Helvetica, Sans-Serif' | The font family specification of both the tooltip text and title |
-| fontSize | '14px' | The font size of the tooltip text. Note that the value is in the css style of formatting. You must include px or other unit when specifying this option. |
-| titleFontSize | '14px' | The font size of the tooltip title. Note that the value is in the css style of formatting. You must include px or other unit when specifying this option. |
-| titlePadding | '1px' | Padding inside the title area, if there is a title specified. Note that the value is in the css style of padding formatting. You must include px or other unit when specifying this option. |
-| textPadding | '1px 3px' | Padding inside the tooltip text area. Note that the value is in the css style of padding formatting, so it is set to 1px padding on the bottom and top, and 3px padding on the right and left. You must include px or other unit when specifying this option. |
+| width | 300px | The width of the tooltip box in pixels.  Note that the value is in the css style of formatting. You must include px or other unit when specifying this option. |
+| border | 2px | The border size in pixels. Note that the value is in the css style of formatting. You must include px or other unit when specifying this option. A 0 value means no border. |
+| borderColor | #FC6 | The border color, which is also the background color of the title text, if a title is included. #FFCC66 = orange yellow. |
+| backColor | #FFC | The background color of the tooltip box. #FFFFCC = light yellow. |
+| textColor | #000 | The color of the tooltip text. #000 is black. |
+| titleTextColor | #000 | The color of the tooltip title text. #000 is black. |
+| fontFace | Arial, Helvetica, Sans-Serif | The font family specification of both the tooltip text and title |
+| fontSize | 14px | The font size of the tooltip text. Note that the value is in the css style of formatting. You must include px or other unit when specifying this option. |
+| titleFontSize | 14px | The font size of the tooltip title. Note that the value is in the css style of formatting. You must include px or other unit when specifying this option. |
+| titlePadding | 1px | Padding inside the title area, if there is a title specified. Note that the value is in the css style of padding formatting. You must include px or other unit when specifying this option. |
+| textPadding | 1px 3px | Padding inside the tooltip text area. Note that the value is in the css style of padding formatting, so it is set to 1px padding on the bottom and top, and 3px padding on the right and left. You must include px or other unit when specifying this option. |
 | xOffset | 15 | Number of pixels the tooltip is horizontally right of the cursor. You do not need to specify the 'px' unit when specifying. |
 | yOffset | 15 | Number of pixels the tooltip is vertically below of the cursor. You do not need to specify the 'px' unit when specifying. |
 
 #### Advanced Usage Examples
 
 ```html
-<span class="skinnytip" data-text="This is the contents of the tooltip" data-options="borderColor: #333, backColor: #333, width: 150px, textPadding: 10px, textColor: #FFF">
+<span class="skinnytip" data-text="This is the contents of the tooltip" 
+data-options="borderColor: #333, backColor: #333, width: 150px, 
+textPadding: 10px, textColor: #FFF">
 	Span that triggers a tooltip with a title and text
 </span>
 ```
