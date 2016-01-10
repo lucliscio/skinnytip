@@ -212,13 +212,13 @@ SkinnyTip.position = function() {
 //get horizontal box placement
 SkinnyTip.getXPlacement = function() {
 
-	var posX=this.mouseX + parseInt(this.xOffset);
-	var widthInt=parseInt(this.width);
-	var borderWidthInt=parseInt(this.border)+3;
+	var posX = this.mouseX + parseInt(this.xOffset);
+	var widthInt = parseInt(this.width);
+	var borderWidthInt = parseInt(this.border) + 3;
 
 	//make sure tooltip fits in window.width
-	if(posX+widthInt+borderWidthInt>window.innerWidth){
-		posX=posX-(posX+widthInt+borderWidthInt-window.innerWidth);
+	if (posX + widthInt + borderWidthInt > window.innerWidth){
+		posX = posX - (posX + widthInt + borderWidthInt - window.innerWidth);
 	}
 
 	return posX;
@@ -227,14 +227,14 @@ SkinnyTip.getXPlacement = function() {
 //get vertical box placement
 SkinnyTip.getYPlacement = function() {
 
-	var posY=this.mouseY + parseInt(this.yOffset);
+	var posY = this.mouseY + parseInt(this.yOffset);
 
-	var heightInt=parseInt(document.getElementById(this.divId).scrollHeight);
-	var borderWidthInt=parseInt(this.border)+3;
+	var heightInt = parseInt(document.getElementById(this.divId).scrollHeight);
+	var borderWidthInt = parseInt(this.border) + 3;
 
 	//make sure tooltip fits in window.height
-	if(posY+heightInt+borderWidthInt>window.innerHeight){
-		posY=posY-(posY+heightInt+borderWidthInt-window.innerHeight);
+	if (posY + heightInt + borderWidthInt > window.innerHeight){
+		posY = posY - (posY + heightInt + borderWidthInt - window.innerHeight);
 	}
 
 	return posY;
